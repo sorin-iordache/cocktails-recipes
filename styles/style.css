@@ -1,0 +1,83 @@
+/* Classic Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Default elements */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1024px;
+}
+
+h1, h2, h3, p{
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(158, 24, 24);
+}
+
+ol, ul {
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Margins */
+
+h1 {
+    margin-top: 20px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+/* Main Nav */
+
+.main-nav {
+    list-style: none;
+    margin-left: 0;
+}
+
+.main-nav li {
+    margin: 10px 0;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    outline: none;
+    color: rgb(20, 150, 150);
+}
+
+/* Back Button */
+
+#back-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#back-button a{
+    text-decoration: none;
+    outline: none;
+    color: #087d81;
+}
